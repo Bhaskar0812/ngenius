@@ -8,7 +8,6 @@ function App() {
     axios.post(`https://api-gateway.sandbox.ngenius-payments.com/identity/auth/access-token`,   
       {headers: {
         'Content-Type': 'application/vnd.ni-identity.v1+json',
-        'Authorization':'Basic N2M5MzFkMDEtMDk0Ni00NTMxLWI5NWYtZWU4MDU4OTc4MzdhOjhjZGRhNThjLTQ2YzgtNDZkMy1hOGZmLTY0ZDM3NmVhNmU4Mg=='
       }}
     )
     .then(res => {debugger;
